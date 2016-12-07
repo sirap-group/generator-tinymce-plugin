@@ -1,5 +1,5 @@
 {
-  "name": "<%= pluginName %>",
+  "name": "tinymce-plugin-<%= pluginName %>",
   "version": "0.1.0",
   "description": "<%= pluginDescription %>",
   "main": "plugin.js",
@@ -26,7 +26,7 @@
   "author": "<%= authorName %> <<%= authorEmail %>>",
   "license": "LGPL-2.1",
   "bugs": {
-    "url": "https://github.com/<%= publicUpstreamNameSpace %>/<%= pluginName %>/issues"
+    "url": "https://github.com/<%= publicUpstreamNameSpace %>/tinymce-plugin-<%= pluginName %>/issues"
   },
-  "homepage": "https://github.com/<%= publicUpstreamNameSpace %>/<%= pluginName %>#readme"
+  "homepage": "https://github.com/<%= publicUpstreamNameSpace %>/tinymce-plugin-<%= pluginName %>#readme"
 }
